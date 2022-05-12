@@ -1,0 +1,2 @@
+# Learning-to-Resize-Images-for-Vision-Transformer
+In this notebook, we will be shown how we can train a higher resolution image for **Vision Transformer** model. Usually transformer based models with high resolution may not fit into our Graphic Processing Unit (GPU). In such cases, we can adopt a **Trainable Resizer** mechanism as a backbone of the transformer models and have it perform as a joint learning of the image resizer and recognition models simultaneously.
